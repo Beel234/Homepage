@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <!--*******************************left side of the page *******************-->
+            <div class="main-content-left">
+                <div class="center-image"> </div>
+                <header>
+                    <h2>TRENDY</h2>
+                    <h2>WEARS</h2>
+                </header>
+                
+                <footer>
+                    <h1>HOME</h1>
+                    <h1>ABOUT</h1>
+                    <div class="profile"><img src="" alt=""></div>
+                    <h1>GALLERY</h1>
+                    <h1>CONTACT</h1>
+                </footer>
+            </div>
+        <!--*******************************right side of the page *******************-->
+            <div class="main-content-right">
+                <div class="container">
+                    <div class="navigation">
+                        <ul>
+                             <li>
+                                <a href="">
+                                    <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                                    <span class="title">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+                                    <span class="title">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                                    <span class="title">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                                    <span class="title">Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon"><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+                                    <span class="title">Youtube</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="toggle"></div>
+                    
+                </div>
+
+            </div>
+    </div>
+    <script>
+        const navigation = document.querySelector('.navigation');
+        document.querySelector('.toggle').onclick = function(){
+            this.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
+<!--  -->
